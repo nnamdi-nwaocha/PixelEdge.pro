@@ -434,7 +434,24 @@ body{
         padding: 0; /* Adjust padding for smaller screens */
         margin: 0;
     }
-
+    .header-primary--main {
+    display: block;
+    letter-spacing: 3.5rem;
+    font-size: 3rem ;
+    font-weight: 400;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+.header-primary--sub {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 17.4px;
+    font-weight: 700;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
     .header__logo-box {
         top: 1rem;
         left: 1rem;
