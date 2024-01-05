@@ -45,7 +45,6 @@ body{
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
-
 .header__box{
     position: absolute;
     top: 40%;
@@ -436,16 +435,10 @@ body{
         padding: 0; /* Adjust padding for smaller screens */
         margin: 0;
     }
-    .header {
-        height: 80vh;
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    }
+
     .header__logo-box {
         top: 1rem;
         left: 1rem;
-    }
-    .header-primary--sub {
-        letter-spacing: 1.3rem;
     }
     .containers {
         display: grid;
