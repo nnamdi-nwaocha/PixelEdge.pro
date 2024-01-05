@@ -165,6 +165,7 @@ body{
     padding: 25rem 0;
     margin-top: -25vh;
     margin-bottom: -25vh;
+    
 
 }
 .heading-secondary {
@@ -318,7 +319,7 @@ body{
     padding: 25rem 0;
     margin-top: -25vh;
     margin-bottom: -25vh;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
 }
 .large-tiles-image img {
     border-radius: 2rem;
