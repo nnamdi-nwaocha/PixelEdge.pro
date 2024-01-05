@@ -45,17 +45,12 @@ body{
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
-.header__box-box {
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-    padding: 10% 15% 0 15%;
-}
+
 .header__box{
-    /* position: absolute;
+    position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);  */
+    transform: translate(-50%, -50%); 
     text-align: center;
 }
 .header-primary {
@@ -442,7 +437,7 @@ body{
         margin: 0;
     }
     .header {
-        height: 85vh;
+        height: 80vh;
         clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     }
     .header__logo-box {
