@@ -10,7 +10,7 @@
     margin-top: 8rem;
 }
 .u-showdow {
-    box-shadow: 2rem 2rem 2rem rgba(255, 255, 255, 0.8);
+    box-shadow: 1rem 1rem 1rem rgba(255, 255, 255, 0.8);
     border: black .2rem solid;
 }
 * {
@@ -197,13 +197,13 @@ body{
 .text-box-container div:hover,
 .large-tiles-container1 p:hover  {
     transform: translateY(-2rem) scale(1.05);
-    box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, .5);
+    box-shadow: .5rem 1rem .5rem rgba(0, 0, 0, .5);
     z-index: 1;
     height: fit-content;
 }
 .caroucel-card-right:hover {
     transform: translateY(-2rem) scale(1.05);
-    box-shadow: 1rem 2rem 2rem rgba(0, 0, 0, .5);
+    box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, .5);
     z-index: 1;
     height: fit-content;
 }
@@ -257,7 +257,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 15rem 15rem 15rem rgba(0, 0, 0, .8);
+    box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, .8);
     
 }
 .animate-on-scroll {
@@ -429,7 +429,7 @@ body{
 
     /* Add other responsive styles as needed */
 }
-@media (min-width: 300px) and (max-width: 799px) {
+@media (min-width: 100px) and (max-width: 799px) {
     body {
         padding: 0; /* Adjust padding for smaller screens */
         margin: 0;
@@ -438,6 +438,9 @@ body{
     .header__logo-box {
         top: 1rem;
         left: 1rem;
+    }
+    .header-primary--main {
+        font-size: 4rem;
     }
     .containers {
         display: grid;
